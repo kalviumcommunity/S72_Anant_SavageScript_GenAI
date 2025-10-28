@@ -4,6 +4,9 @@ __pycache__/
 *$py.class
 *.so
 .Python
+env/
+venv/
+ENV/
 build/
 develop-eggs/
 dist/
@@ -20,28 +23,35 @@ wheels/
 .installed.cfg
 *.egg
 
-# Environment
-.env
+# Virtual Environment
 venv/
 ENV/
 env/
-env.bak/
-venv.bak/
 
-# VSCode
+# IDEs
 .vscode/
-*.code-workspace
-.history/
-
-# IDE
 .idea/
 *.swp
 *.swo
+*~
 
-# OS specific
+# OS
 .DS_Store
 Thumbs.db
-desktop.ini
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Frontend
+frontend/node_modules/
+frontend/build/
 
 # Logs
 *.log
