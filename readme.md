@@ -57,9 +57,6 @@ Request flow:
 
 The CLI path in [src/savage_script.py](src/savage_script.py) uses the same Gemini API key and prompt idea, but runs entirely in the terminal.
 
-## Screenshots
-
-No screenshots are committed in this repository yet.
 
 ## Installation
 
